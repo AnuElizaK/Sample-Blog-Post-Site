@@ -1,0 +1,67 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  padding: 5px;
+}
+body{
+  background-color: rgb(189, 255, 182);
+}
+h1, h3{
+  color: rgb(2, 132, 150);
+}
+#h:hover{
+  color:rgb(49, 70, 72);
+}
+p{
+  margin-top: 20px;
+  font-size:large;
+  font-weight: bold;
+  color: rgb(2, 132, 150);
+}
+header{
+  border: 2px solid rgb(2, 132, 150);
+  border-radius: 20px;
+}
+nav{
+  background-color: rgb(198, 245, 252);
+  border: 2px solid rgb(2, 132, 150);
+  border-radius: 15px;
+}
+#tc{
+  margin-left: auto;
+  margin-right: auto;
+}
+#blog{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(2, 132, 150);
+  background-color: rgb(198, 245, 252);
+  margin-top: 50px; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+  color: rgb(2, 132, 150)
+}
+input{
+  height: 30px;
+  width: 96%;
+  margin-top: 10px;
+  background-color: rgb(237, 223, 253);
+  border: 1.5px solid rgb(2, 132, 150);
+  border-radius: 5px;
+}
+input:focus{
+  outline: none;
+  border: 2px solid rgb(2, 132, 150);
+}
+button{
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgb(2, 132, 150);
+  color: white;
+  border: 2px solid rgb(2, 132, 150);
+  border-radius: 5px;
+}
