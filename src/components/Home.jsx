@@ -19,7 +19,8 @@ const Home = () => {
     .catch(error => console.error(error))
   }, []);
   return (
-    <TableContainer id="tc" component={Paper} elevation={3} sx={{ mt: 4, width: '50%'}}>
+    <h2 id="home">List of Blogs
+    <TableContainer id="tc" component={Paper} elevation={3} sx={{ mt: 3, width: '50%'}}>
       <Table sx={{ backgroundColor: 'rgb(237, 223, 253)' }}>
         <TableHead sx={{ backgroundColor: 'rgb(198, 245, 252)'}}>
           <TableRow>
@@ -37,6 +38,7 @@ const Home = () => {
         </TableBody>
       </Table>
     </TableContainer>
+    </h2>
   )
 }
 export default Home
